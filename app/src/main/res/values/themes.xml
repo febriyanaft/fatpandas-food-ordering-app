@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.FatPandas" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Warna utama -->
+        <item name="colorPrimary">#4CAF50</item>
+        <item name="colorPrimaryVariant">#2E7D32</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+
+        <!-- Logo Title -->
+        <item name="logo_title">@drawable/tittle</item>
+        <item name="logo_height_main">60dp</item>
+        <item name="logo_height_splash">80dp</item>
+
+        <!-- Font Family -->
+        <item name="android:fontFamily">@font/poppins</item>
+
+        <!-- Background -->
+        <item name="android:statusBarColor">#2E7D32</item>
+
+        <!-- Button Style -->
+        <item name="materialButtonStyle">@style/AppButton</item>
+
+        <!-- Alert Dialog Style -->
+        <item name="materialAlertDialogTheme">@style/AppAlertDialog</item>
+        <item name="alertDialogTheme">@style/AppAlertDialog</item>
+    </style>
+
+    <style name="AppAlertDialog" parent="ThemeOverlay.MaterialComponents.MaterialAlertDialog">
+        <item name="shapeAppearanceOverlay">@style/RoundedShapeAppearance</item>
+        <item name="android:windowMinWidthMajor">90%</item>
+        <item name="android:windowMinWidthMinor">90%</item>
+        <item name="backgroundInsetStart">16dp</item>
+        <item name="backgroundInsetEnd">16dp</item>
+    </style>
+
+    <style name="RoundedShapeAppearance" parent="">
+        <item name="cornerSize">20dp</item>
+    </style>
+
+    <style name="AppButton" parent="Widget.MaterialComponents.Button">
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+</resources>

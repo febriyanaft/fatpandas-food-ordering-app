@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="72dp"
+    app:cardElevation="10dp"
+    app:cardCornerRadius="0dp"
+    app:cardBackgroundColor="@color/bg_card">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:baselineAligned="false"
+        android:orientation="horizontal"
+        android:paddingTop="6dp"
+        android:paddingBottom="6dp">
+
+        <TextView
+            android:id="@+id/navBeranda"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/nav_beranda"
+            android:textColor="@color/green"
+            android:textSize="11sp"
+            android:drawablePadding="4dp"
+            android:paddingTop="6dp"
+            android:paddingBottom="4dp"
+            app:drawableTopCompat="@drawable/ic_home"
+            app:drawableTint="@color/green" />
+
+        <TextView
+            android:id="@+id/navPesanan"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/nav_pesanan"
+            android:textColor="@color/gray"
+            android:textSize="11sp"
+            android:drawablePadding="4dp"
+            android:paddingTop="6dp"
+            android:paddingBottom="4dp"
+            app:drawableTopCompat="@drawable/ic_order"
+            app:drawableTint="@color/gray" />
+
+        <FrameLayout
+            android:id="@+id/navKeranjang"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/tvNavKeranjangLabel"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="@string/nav_keranjang"
+                android:textColor="@color/gray"
+                android:textSize="11sp"
+                android:drawablePadding="4dp"
+                android:paddingTop="6dp"
+                android:paddingBottom="4dp"
+                app:drawableTopCompat="@drawable/ic_cart"
+                app:drawableTint="@color/gray" />
+
+            <TextView
+                android:id="@+id/tvCartBadge"
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:layout_gravity="top|center_horizontal"
+                android:layout_marginStart="13dp"
+                android:layout_marginTop="2dp"
+                android:background="@drawable/bg_badge"
+                android:gravity="center"
+                android:text="@string/badge_zero"
+                android:textColor="#FFFFFF"
+                android:textSize="10sp"
+                android:textStyle="bold"
+                android:visibility="gone" />
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/navProfil"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/nav_profil"
+            android:textColor="@color/gray"
+            android:textSize="11sp"
+            android:drawablePadding="4dp"
+            android:paddingTop="6dp"
+            android:paddingBottom="4dp"
+            app:drawableTopCompat="@drawable/ic_profile"
+            app:drawableTint="@color/gray" />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

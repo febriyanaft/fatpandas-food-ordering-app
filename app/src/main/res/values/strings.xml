@@ -1,0 +1,173 @@
+<resources>
+    <string name="app_name">FatPandas</string>
+    <string name="app_name_caps">FAT PANDAS</string>
+
+    <!-- Navigation & UI Labels -->
+    <string name="nav_beranda">Beranda</string>
+    <string name="nav_pesanan">Pesanan</string>
+    <string name="nav_keranjang">Keranjang</string>
+    <string name="nav_profil">Profil</string>
+    <string name="nav_home">Beranda</string>
+    <string name="nav_orders">Pesanan</string>
+    <string name="nav_cart">Keranjang</string>
+    <string name="nav_profile">Profil</string>
+
+    <!-- General Actions -->
+    <string name="pesan_sekarang">Pesan Sekarang</string>
+    <string name="pesanan_berhasil">Pesanan Berhasil</string>
+    <string name="checkout_now">Checkout Sekarang</string>
+    <string name="btn_checkout">Checkout Sekarang</string>
+    <string name="btn_order_now">Pesan Sekarang</string>
+    <string name="btn_back_to_home">Kembali ke Beranda</string>
+    <string name="btn_view_my_orders">Lihat Pesanan</string>
+    <string name="btn_continue_confirmation">Konfirmasi</string>
+    <string name="btn_confirm_yes">Ya, Pesan</string>
+    <string name="btn_confirm_hapus">Hapus</string>
+    <string name="btn_cancel">Batal</string>
+    <string name="label_see_all">Lihat Semua</string>
+
+    <!-- Cart Screen -->
+    <string name="cart_title">Keranjang</string>
+    <string name="cart_empty_title">Keranjang masih kosong</string>
+    <string name="cart_empty_subtitle">Yuk pilih menu favoritmu!</string>
+    <string name="label_total_item">Total Item</string>
+    <string name="label_total_harga">Total Harga</string>
+    <string name="default_item_count">0 item</string>
+    <string name="default_price">Rp0</string>
+    <string name="cart_item_count_placeholder">Rp0</string>
+    <string name="cart_total_placeholder">Rp0</string>
+    <string name="cart_total_format">Rp%1$s</string>
+    <string name="cart_item_count_format">%1$d item</string>
+    <string name="toast_cart_empty">Keranjang masih kosong!</string>
+    <string name="confirm_delete_msg">Apakah anda yakin ingin menghapus menu ini?</string>
+
+    <!-- Detail Screen -->
+    <string name="detail_pesanan">Detail Menu</string>
+    <string name="detail_menu_title">Detail Menu</string>
+    <string name="label_description">Deskripsi</string>
+    <string name="label_allergen">Informasi Alergen</string>
+    <string name="detail_desc_suffix">\n\nCocok untuk kamu yang suka makanan nusantara dengan sentuhan kekinian. Disajikan hangat dengan pelengkap pilihan kami yang bikin nagih!</string>
+
+    <!-- Order Screen -->
+    <string name="title_order_menu">Pesan Menu</string>
+    <string name="label_order_qty">Jumlah Pesanan</string>
+    <string name="label_customer_data">Data Pemesan</string>
+    <string name="label_order_type">Tipe Pesanan</string>
+    <string name="option_dine_in">Dine In</string>
+    <string name="option_take_away">Take Away</string>
+    <string name="label_payment_method">Metode Pembayaran</string>
+    <string name="option_qris">QRIS (Otomatis)</string>
+    <string name="option_cash">Cash di Kasir</string>
+    <string name="hint_full_name">Nama Lengkap</string>
+    <string name="hint_phone">No. Telepon</string>
+    <string name="hint_table_no">Meja / No. Meja (Opsional)</string>
+    <string name="hint_notes">Catatan Pesanan</string>
+    <string name="label_subtotal">Subtotal</string>
+    <string name="label_total">Total</string>
+    <string name="confirm_order_title">Konfirmasi Pesanan</string>
+    <string name="confirm_order_msg_simple">Apakah data pesanan sudah benar?</string>
+    <string name="confirm_order_msg_format">Apakah data pesanan sudah benar?\n\n🍽 Menu  : %1$s\n🔢 Jumlah: %2$d\n🪑 Meja  : %3$s\n💰 Total : %4$s</string>
+    <string name="toast_order_error">Nama dan No. Telepon wajib diisi!</string>
+    <string name="toast_menu_added_format">%1$s ditambahkan ke keranjang!</string>
+
+    <!-- Success Screen -->
+    <string name="success_message_title">Pesanan Berhasil!</string>
+    <string name="success_message_subtitle">Terima kasih, pesanan kamu\nsedang kami proses.</string>
+    <string name="label_menu">Menu</string>
+    <string name="label_qty">Jumlah</string>
+    <string name="label_table">Meja</string>
+    <string name="label_time">Waktu</string>
+    <string name="title_status_pesanan">Status Pesanan</string>
+
+    <!-- Profile Screen -->
+    <string name="title_profile">Profil</string>
+    <string name="title_pesanan_saya">Pesanan Saya</string>
+    <string name="label_my_orders">Pesanan Saya</string>
+    <string name="label_favorite_menu">Menu Favorit</string>
+    <string name="title_favorite_list">Favorit Saya</string>
+    <string name="empty_favorites">Belum ada menu favorit.</string>
+    <string name="label_about_app">Tentang Fat Pandas</string>
+    <string name="app_version">Fat Pandas v1.0.0</string>
+    <string name="dashboard_statistik">Dashboard Statistik</string>
+    <string name="label_pesanan">Pesanan</string>
+    <string name="label_favorit">Favorit</string>
+    <string name="label_transaksi">Transaksi</string>
+    <string name="stat_pesanan">Pesanan</string>
+    <string name="stat_favorit">Favorit</string>
+    <string name="stat_transaksi">Transaksi</string>
+    <string name="stat_total_pesanan_default">0</string>
+    <string name="stat_total_favorit_default">0</string>
+    <string name="stat_total_transaksi_default">Rp 0</string>
+    <string name="label_change_theme">Ubah Tema Gelap/Terang</string>
+    <string name="btn_logout">Logout</string>
+    <string name="btn_login">Login</string>
+    <string name="msg_logout_confirm">Apakah Anda yakin ingin keluar?</string>
+
+    <!-- Order List -->
+    <string name="title_order_list">Pesanan Saya</string>
+    <string name="empty_orders_title">Belum ada pesanan</string>
+    <string name="order_empty_title">Belum ada pesanan</string>
+    <string name="order_empty_subtitle">Yuk pesan menu favoritmu!</string>
+
+    <!-- Categories -->
+    <string name="label_category">Kategori</string>
+    <string name="label_menu_category">Kategori Menu</string>
+    <string name="cat_all">Semua</string>
+    <string name="cat_drink">Minuman</string>
+    <string name="cat_food">Makanan</string>
+    <string name="cat_dessert">Cemilan</string>
+
+    <!-- Content Descriptions -->
+    <string name="content_desc_back">Kembali</string>
+    <string name="content_desc_cart">Keranjang</string>
+    <string name="content_desc_favorite">Favorit</string>
+    <string name="content_desc_menu_image">Gambar Menu</string>
+    <string name="content_desc_star">Rating</string>
+    <string name="content_desc_menu">Menu</string>
+    <string name="content_desc_notification">Notifikasi</string>
+    <string name="content_desc_search">Cari</string>
+    <string name="content_desc_banner">Banner Promo</string>
+    <string name="content_desc_minus">Kurang</string>
+    <string name="content_desc_plus">Tambah</string>
+    <string name="content_desc_order_icon">Ikon Pesanan</string>
+    <string name="content_desc_profile_pic">Foto Profil</string>
+    <string name="content_desc_arrow">Panah</string>
+    <string name="content_desc_about">Tentang</string>
+    <string name="content_desc_logo">Logo Fat Pandas</string>
+    <string name="content_desc_confetti">Konfeti</string>
+    <string name="content_desc_success_icon">Ikon Berhasil</string>
+    <string name="content_desc_check">Centang</string>
+    <string name="content_desc_nav_home">Beranda</string>
+    <string name="content_desc_nav_orders">Pesanan</string>
+    <string name="content_desc_nav_cart">Keranjang</string>
+    <string name="content_desc_nav_profile">Profil</string>
+    <string name="content_desc_delete">Hapus</string>
+    <string name="desc_icon_back">Kembali</string>
+    <string name="desc_icon_beranda">Icon Beranda</string>
+    <string name="desc_icon_pesanan">Icon Pesanan</string>
+    <string name="desc_icon_keranjang">Icon Keranjang</string>
+    <string name="desc_icon_profil">Icon Profil</string>
+    <string name="desc_cart_badge">Jumlah item keranjang</string>
+
+    <!-- Dummies & Search -->
+    <string name="search_hint">Cari menu favoritmu...</string>
+    <string name="banner_title">Good Food\nGood Mood</string>
+    <string name="banner_subtitle">Nikmati makanan lezat\nala Fat Pandas!</string>
+    <string name="splash_subtitle">Aplikasi Pemesanan Makanan &amp; Minuman</string>
+    <string name="dummy_menu_name">Nasi Goreng Pandas</string>
+    <string name="dummy_menu_price">Rp30.000</string>
+    <string name="dummy_menu_rating">4.8 (120)</string>
+    <string name="dummy_menu_desc">Nasi goreng khas Fat Pandas dengan bumbu spesial...</string>
+    <string name="dummy_allergen_info">Mengandung gluten, telur. Cocok untuk semua kalangan usia.</string>
+    <string name="dummy_qty">1</string>
+    <string name="dummy_profile_name">Naya Iqis Wafa</string>
+    <string name="dummy_profile_phone">081234567890</string>
+    <string name="dummy_time">20 Mei 2024, 10:30</string>
+    <string name="dummy_table_no">IN-12</string>
+    <string name="order_qty_format">%1$dx item</string>
+    <string name="dummy_order_id">#FP001</string>
+    <string name="status_processing">Diproses</string>
+    <string name="dummy_menu_short_desc">Nasi goreng khas dengan topping ayam crispy</string>
+    <string name="badge_zero">0</string>
+    <string name="nav_cart_badge">0</string>
+</resources>

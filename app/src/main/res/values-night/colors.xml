@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="green">#4CAF50</color>
+    <color name="colorPrimary">#4CAF50</color>
+    <color name="dark_green">#2E7D32</color>
+    <color name="gray">#9E9E9E</color>
+
+    <color name="bg_app">#121212</color>
+    <color name="bg_card">#1E1E1E</color>
+    <color name="bg_surface">#2C2C2C</color>
+    <color name="text_primary">#E1E1E1</color>
+    <color name="text_secondary">#AAAAAA</color>
+    <color name="icon_tint">#FFFFFF</color>
+    <color name="divider">#333333</color>
+
+    <color name="btn_secondary_bg">#1E1E1E</color>
+    <color name="btn_secondary_text">#E1E1E1</color>
+
+    <color name="btn_outline_bg">#000000</color>
+    <color name="btn_outline_border">#4CAF50</color>
+    <color name="btn_outline_text">#FFFFFF</color>
+</resources>

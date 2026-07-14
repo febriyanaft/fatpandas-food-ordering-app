@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.FatPandas" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Warna utama -->
+        <item name="colorPrimary">#4CAF50</item>
+        <item name="colorPrimaryVariant">#2E7D32</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+
+        <!-- Logo Title -->
+        <item name="logo_title">@drawable/darkmode</item>
+        <item name="logo_height_main">60dp</item>
+        <item name="logo_height_splash">80dp</item>
+
+        <!-- Font Family -->
+        <item name="android:fontFamily">@font/poppins</item>
+
+        <!-- Background -->
+        <item name="android:statusBarColor">#121212</item>
+
+        <!-- Alert Dialog Style -->
+        <item name="materialAlertDialogTheme">@style/AppAlertDialog</item>
+    </style>
+</resources>

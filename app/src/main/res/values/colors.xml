@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Brand Colors -->
+    <color name="green">#4CAF50</color>
+    <color name="colorPrimary">#4CAF50</color>
+    <color name="dark_green">#2E7D32</color>
+    <color name="gray">#9E9E9E</color>
+
+    <!-- Adaptive Colors (Light Mode) -->
+    <color name="bg_app">#F5F5F0</color>
+    <color name="bg_card">#FFFFFF</color>
+    <color name="bg_surface">#F0F0F0</color>
+    <color name="text_primary">#1B1B1B</color>
+    <color name="text_secondary">#888888</color>
+    <color name="icon_tint">#333333</color>
+    <color name="divider">#EEEEEE</color>
+
+    <!-- Button Adaptive -->
+    <color name="btn_secondary_bg">#4CAF50</color>
+    <color name="btn_secondary_text">#FFFFFF</color>
+
+    <!-- Secondary Button (Outline) -->
+    <color name="btn_outline_bg">#FFFFFF</color>
+    <color name="btn_outline_border">#4CAF50</color>
+    <color name="btn_outline_text">#1B1B1B</color>
+</resources>

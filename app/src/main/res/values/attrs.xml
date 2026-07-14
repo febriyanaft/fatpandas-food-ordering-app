@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="logo_title" format="reference" />
+    <attr name="logo_height_main" format="dimension" />
+    <attr name="logo_height_splash" format="dimension" />
+</resources>
